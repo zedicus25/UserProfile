@@ -14,7 +14,7 @@ public:
 	//sets
 	void setLastName(const char* last_name);
 	void setFirstName(const char* first_name);
-	void setPatronymicName(const char* patronymic);
+	void setPatronymic(const char* patronymic);
 	void setYear(int year);
 	void setMounth(int mounth);
 	void setDay(int day);
@@ -30,13 +30,13 @@ public:
 		return this->patronymic;
 	}
 	inline int getYear() const {
-		this->year;
+		return this->year;
 	}
 	inline int getMounth() const {
-		this->mounth;
+		return this->mounth;
 	}
 	inline int getDay() const {
-		this->day;
+		return this->day;
 	}
 
 	void print();

@@ -22,7 +22,7 @@ void c_UserProfile::setFirstName(const char* first_name)
 	strcpy_s(this->first_name, strlen(first_name) + 1, first_name);
 }
 
-void c_UserProfile::setPatronymicName(const char* patronymic)
+void c_UserProfile::setPatronymic(const char* patronymic)
 {
 	this->patronymic = new char[strlen(patronymic) + 1];
 	strcpy_s(this->patronymic, strlen(patronymic) + 1, patronymic);
